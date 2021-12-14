@@ -28,7 +28,7 @@ ax.set_xlim(0, 50)
 ax.set_ylim(0, 10)
 ax.grid()
  
-f = open(r'C:\Users\Anton\Downloads\start.txt', 'r')
+f = open(r'sources\start.txt', 'r')
 lines = f.read().split('\n')
 n = len(lines)
 A = np.diag(np.full(n, 1)) - np.eye(n, k = -1)
